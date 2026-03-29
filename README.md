@@ -30,13 +30,7 @@ A modern, full-stack classifieds marketplace application that allows users to se
 
 ## 🚀 Local Development Setup
 
-### 1. Clone the repository
-\`\`\`bash
-git clone https://github.com/iamYogeshMohan/ReUseHub-Smart-Classifieds-Marketplace.git
-cd ReUseHub-Smart-Classifieds-Marketplace
-\`\`\`
-
-### 2. Configure Backend
+### 1. Configure Backend
 Navigate to the \`backend\` directory and install dependencies:
 \`\`\`bash
 cd backend
@@ -49,20 +43,20 @@ MONGO_URI=mongodb://127.0.0.1:27017/reusehub
 JWT_SECRET=supersecretjwtkey_reusehub_2026
 \`\`\`
 
-### 3. Run Database Seeds (Optional but Recommended)
+### 2. Run Database Seeds (Optional but Recommended)
 Populate the local MongoDB database with realistic users and over 50 real-world products using high-quality placeholder images.
 \`\`\`bash
 node seeds.js
 \`\`\`
 
-### 4. Configure Frontend
+### 3. Configure Frontend
 Open a new terminal, navigate to the \`frontend\` directory, and install dependencies:
 \`\`\`bash
 cd frontend
 npm install
 \`\`\`
 
-### 5. Launch the Application
+### 4. Launch the Application
 Run both servers simultaneously:
 **Backend Server:**
 \`\`\`bash
