@@ -1,8 +1,8 @@
-# ReUseHub - Smart Classifieds Marketplace
+# 🛒 ReUseHub - Smart Classifieds Marketplace
 
 A modern, full-stack classifieds marketplace application that allows users to seamlessly buy and sell used products locally. Built with the MERN stack (MongoDB, Express, React, Node.js) and features real-time instant messaging using Socket.io.
 
-## Features
+## ✨ Key Features
 
 - **Modern Responsive Design**: Built with React and Tailwind CSS for mobile-first scalability.
 - **Secure Authentication**: JWT-based login and registration with bcrypt password hashing.
@@ -12,7 +12,7 @@ A modern, full-stack classifieds marketplace application that allows users to se
 - **Smart Filtering & Searching**: Instantly find desired products by searching names or sorting by specific product categories on the homepage.
 - **User Profiles**: Securely view user profiles and upload customized profile avatars dynamically.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - **React.js** (Vite)
@@ -28,7 +28,7 @@ A modern, full-stack classifieds marketplace application that allows users to se
 - **Socket.io** (WebSocket communication)
 - **JSON Web Tokens (JWT)** (Authentication)
 
-## Local Development Setup
+## 🚀 Local Development Setup
 
 ### 1. Clone the repository
 \`\`\`bash
@@ -50,7 +50,7 @@ JWT_SECRET=supersecretjwtkey_reusehub_2026
 \`\`\`
 
 ### 3. Run Database Seeds (Optional but Recommended)
-Populate the local MongoDB database with realistic users and over 50 real-world products using Unsplash/LoremFlickr placeholder images.
+Populate the local MongoDB database with realistic users and over 50 real-world products using high-quality placeholder images.
 \`\`\`bash
 node seeds.js
 \`\`\`
@@ -73,7 +73,7 @@ npm run dev
 npm run dev
 \`\`\`
 
-The application will intuitively boot on \`http://localhost:5173\`.
+The application will be running on \`http://localhost:5173\`.
 
-## License
-This project is licensed under the MIT License.
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
